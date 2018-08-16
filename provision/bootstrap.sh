@@ -17,6 +17,7 @@ sudo service nginx start
 # set up nginx server
 sudo cp /vagrant/provision/nginx/nginx.conf /etc/nginx/sites-available/site.conf
 sed -i "s|{php_version}|$2|" /etc/nginx/sites-available/site.conf
+sed -i "s|{server_name}|$1|" /etc/nginx/sites-available/site.conf
 sudo chmod 644 /etc/nginx/sites-available/site.conf
 sudo ln -s /etc/nginx/sites-available/site.conf /etc/nginx/sites-enabled/site.conf
 sudo service nginx restart

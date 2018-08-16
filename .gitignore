@@ -2,6 +2,7 @@
 # Folders to ignore #
 ######################
 .vagrant
+html
 
 ######################
 # OS generated files #
