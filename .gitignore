@@ -5,6 +5,11 @@
 html
 
 ######################
+# Files to ignore #
+######################
+box_config.yaml
+
+######################
 # OS generated files #
 ######################
 .DS_Store
