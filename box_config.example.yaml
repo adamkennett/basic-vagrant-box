@@ -1,0 +1,9 @@
+ip: "192.168.33.10"
+memory: 1048
+cpus: 1
+url: "wordpress.test"
+phpversion: "7.2"
+mysqlversion: "5.6"
+databasename: "wordpress"
+wordpressinstall: "true"
+phpextensions: "true"
