@@ -11,7 +11,7 @@ A simple vagrant box using NGINX and PHP to get a local set up for projects, wit
 6. Edit hosts file, add IP and Url, this file is located at `/etc/hosts` on a mac
 7. In root of project, in this example `example-project` run `vagrant up` 
 
-<h3>Connecting with a MySQL client<h3>
+<h3>Connecting with a MySQL client</h3>
 
 MySQL Host: 127.0.0.1 <br/>
 Username: root <br/>
