@@ -119,5 +119,9 @@ fi
 
 sudo apt-get install htop -y
 
+# add scripts
+sudo cp /vagrant/provision/nginx/addsite.sh /home/vagrant
+
+
 
 

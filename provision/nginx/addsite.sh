@@ -1,4 +1,4 @@
-SITE_NAME='auto8'
+SITE_NAME='auto9'
 
 sudo mkdir /var/www/"$SITE_NAME"
 
@@ -8,4 +8,6 @@ sed -i "s|{server_name}|${SITE_NAME}|" /etc/nginx/sites-available/"$SITE_NAME".c
 
 sudo ln -s /etc/nginx/sites-available/"$SITE_NAME".conf /etc/nginx/sites-enabled/
 
-mysql -u root -ppassword -e "CREATE DATABASE $DATABASENAME" 
+mysql -u root -ppassword -e "CREATE DATABASE $SITE_NAME"
+
+sudo service nginx restart 
