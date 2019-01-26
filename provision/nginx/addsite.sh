@@ -1,4 +1,5 @@
-SITE_NAME='auto9'
+# Usage -> sudo sh addsite sitename
+SITE_NAME=$1
 
 sudo mkdir /var/www/"$SITE_NAME"
 
